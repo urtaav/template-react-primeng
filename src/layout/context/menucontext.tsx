@@ -1,6 +1,6 @@
 import { ChildContainerProps } from 'dashboard-react/src/types';
 import { MenuContextProps } from 'dashboard-react/src/types/layout';
-import React, { useState, createContext } from 'react';
+import { useState, createContext } from 'react';
 
 export const MenuContext = createContext({} as MenuContextProps);
 

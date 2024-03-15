@@ -1,0 +1,41 @@
+.lightTheme {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.darkTheme {
+    background-color: #000;
+    color: #fff;
+}
+
+.darkButtonTheme {
+    background-color: #000;
+    color: #fff;
+
+   
+}
+
+.darkButtonTheme:hover {
+    background-color: #ddd; /* Change the background color on hover */
+    color: #000;
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+
+.lightButtonTheme {
+    background-color: #fff;
+    color: #000;
+}
+
+.lightButtonTheme:hover {
+    background-color: #ddd; /* Change the background color on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+.themeTitleText {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 60px;
+}

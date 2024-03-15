@@ -2,7 +2,7 @@ import { forwardRef, useContext, useImperativeHandle, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { AppTopbarRef } from '../types/index';
 import { LayoutContext } from './context/layoutcontext';
-const AppTopbar = forwardRef<AppTopbarRef>((props, ref)  => {
+const AppTopbar = forwardRef<AppTopbarRef>((_, ref)  => {
 
     const { onMenuToggle } = useContext(LayoutContext);
     const menubuttonRef = useRef(null);
