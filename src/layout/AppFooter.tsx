@@ -20,7 +20,7 @@ const AppFooter = () => {
                         <i className="pi pi-twitter"></i>
                     </a><a className="cursor-pointer border-circle bg-bluegray-100 text-bluegray-500 block inline-flex justify-content-center align-items-center mr-5" style={{ width: '2.5rem', height: '2.5rem' }}>
                         <i className="pi pi-facebook"></i></a>
-                    <a className="cursor-pointer border-circle bg-bluegray-100 text-bluegray-500 block inline-flex justify-content-center align-items-center" style={{ width: '2.5rem', height: '2.5rem' }}><i className="pi pi-github"></i></a></div><div className="text-center"><a className="mr-5 text-sm text-600 cursor-pointer">Privacy Policy</a>
+                    <a href="https://github.com/urtaav/template-react-primereact/tree/main" target="_blank" className="cursor-pointer border-circle bg-bluegray-100 text-bluegray-500 block inline-flex justify-content-center align-items-center" style={{ width: '2.5rem', height: '2.5rem' }}><i className="pi pi-github"></i></a></div><div className="text-center"><a className="mr-5 text-sm text-600 cursor-pointer">Privacy Policy</a>
                     <a className="text-sm text-600 cursor-pointer">Terms of Service</a></div></div></div>
     )
 }
